@@ -26,7 +26,7 @@ namespace Laborator1Product.Controllers
             return context.Products;
         }
 
-        // GET: api/Products/5
+        // GET: api/Products
         [HttpGet("{id}", Name = "Get")]
         public IActionResult Get(int id)
         {
